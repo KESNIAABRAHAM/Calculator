@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+<body>
+    <div class="calContainer">
+        <div class="screenwrapper">
+            <input type="text" randonly class="timescreen" id="timescreen">
+            <input type="text" randonly class="opscreen" id="opscreen">
+        </div>
+        <div class="operandwrapper">
+            
+            <div class="box1">
+                <button id="clearall" onclick="workclearall()">CA</button>
+                <button id="mod" onclick="workmodulo()">MOD</button>
+                <button id="per" onclick="displaypercentage()">PER</button>
+            </div> 
+            <div class="box2">
+                <button id="one" onclick="displayone()">1</button>
+                <button id="two"onclick="displaytwo()">2</button>
+                <button id="three" onclick="displaythree()">3</button>
+                <div class="box2">
+                <button id="four" onclick="displayfour()">4</button>
+                <button id="five"onclick= "displayfive()">5</button>
+                <button id="six" onclick="displaysix()">6</button>
+                </div>
+                <div class="box2">
+                <button id="seven" onclick="displayseven()">7</button>
+                <button id="eight" onclick="displayeight()">8</button>
+                <button id="nine" onclick="displaynine()">9</button>
+                </div>
+                <div class="box2">
+                    <button id="dot" onclick="displaydot()">.</button>
+                    <button id="zero" onclick="displayzero()">0</button>
+                    <button id="clear" onclick="clearone()">C</button>
+
+                </div>
+            </div>
+        </div>
+        <div class="operatorswrapper">
+            <button id="division" onclick="displaydiv()"> /</button>
+            <button id="multiplication" onclick="displaymultiplication()">x </button>
+            <button id="subtraction" onclick="displaysubtraction()"> - </button>
+            <button id="addition" onclick="displayaddition()"> + </button>
+            <button id="equals" onclick="displayequalsto() "> = </button>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>

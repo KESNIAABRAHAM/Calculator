@@ -1,0 +1,71 @@
+body {
+  margin: 0px;
+  text-decoration: none;
+  display: flex;
+  place-content: center;
+  background-color: black;
+}
+.calContainer {
+  width: 500px;
+  height: 600px;
+  border: 2px solid gray;
+  background-color: blueviolet;
+  margin-top: 20px;
+  padding: 10px;
+}
+.screenwrapper {
+  height: 150px;
+  background-color: black;
+  padding: 7px;
+
+}
+.operandwrapper {
+  width: 72%;
+  float: left;
+  height: 440px;
+  background-color: burlywood;
+}
+.operatorswrapper {
+  width: 25%;
+  float: right;
+  height:  440px;
+  display: grid;
+}
+.screenwrapper .timescreen{
+    width: 50%;
+    height: 45px;
+    font-size: 28px;
+    padding-left:5px ;
+}
+
+.screenwrapper .opscreen{
+width: 97%;
+height:80px ;
+margin-top: 5px;
+font-size: 40px;
+}
+.operatorswrapper button{
+    font-size: 35px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.operandwrapper div{
+    height: 88px;
+    margin-bottom:2px;
+
+    
+}
+.operandwrapper .box1 button{
+padding: 24px 20px;
+font-size: 35px;
+height: 88px;
+cursor: pointer;
+background-color: whitesmoke;
+
+
+}
+.operandwrapper .box2 button{
+    padding: 20px 46.7px;
+    font-size: 35px;
+    cursor: pointer;
+}
