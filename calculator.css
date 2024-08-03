@@ -3,7 +3,7 @@ body {
   text-decoration: none;
   display: flex;
   place-content: center;
-  background-color: black;
+  background-color: white;
 }
 .calContainer {
   width: 500px;
@@ -68,4 +68,42 @@ background-color: whitesmoke;
     padding: 20px 46.7px;
     font-size: 35px;
     cursor: pointer;
+}
+
+/* media query for mobile screen */
+
+@media (max-width: 767px) {
+  body{
+    margin: 0px;
+    text-decoration: none;
+    display: flex;
+    place-content: center;
+    background-color: white;
+  }
+  .calContainer{
+    height: 620px;
+    background-color:purple;
+  }
+
+.operandwrapper{
+  width: 72%;
+  float: left;
+  height: 456px;
+  text-align: center;
+  
+}
+
+.operandwrapper .box1 button{
+  padding: 20px 24px;
+  height: 55px;
+  font-size: 25px;
+  margin-bottom: 1px;
+
+}
+.operandwrapper .box2 button{
+padding: 8px 20px;
+margin-top: 30px;
+}
+
+
 }
