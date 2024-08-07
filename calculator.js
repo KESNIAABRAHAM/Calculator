@@ -29,6 +29,7 @@ var clearall = document.getElementById("clearall");
 var rem = document.getElementById("mod");
 var percent = document.getElementById("per");
 var equal = document.getElementById("equals");
+
 function display(operand) {
   opscreen.value += operand;
   setTimeout(blink, 300);
@@ -58,7 +59,7 @@ function blink() {
   subtraction.style.backgroundColor = "whitesmoke";
   addition.style.backgroundColor = "whitesmoke";
   clearall.style.backgroundColor = "whitesmoke";
-  modulo.style.backgroundColor = "whitesmoke";
+  mod.style.backgroundColor = "whitesmoke";
   equal.style.backgroundColor = "whitesmoke";
   per.style.backgroundColor = "whitesmoke";
 }
@@ -311,6 +312,6 @@ function displayequalsto() {
   let result = eval(exp);
   opscreen.value = result;
   setTimeout(blink, 300);
-  equals.style.backgroundColor = "green";
+  equal.style.backgroundColor = "green";
   
 }
