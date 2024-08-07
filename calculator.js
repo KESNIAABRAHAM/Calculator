@@ -34,12 +34,7 @@ function display(operand) {
   opscreen.value += operand;
   setTimeout(blink, 300);
 }
-//one
-// function displayone(){
-//     opscreen.value += 1;
-//     one.style.backgroundColor = "green";
-//     setTimeout(blink, 300);
-// }
+
 
 function blink() {
   one.style.backgroundColor = "whitesmoke";
